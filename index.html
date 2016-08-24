@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vlastimir</title>
+	<meta viewport="" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- GOOGLE FONTS 	-->
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Josefin+Sans|Open+Sans|Poppins|Raleway:600|Roboto+Slab|Roboto:400,700" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Latest font awsome from bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- latest jquery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript from bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- local css script -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--		MAIN BODY 		-->
+	<main id="top" class="">
+		<!--	NAVIGATION	-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- NAVBAR BUTTON -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--	place for a brand logo
+					<a class="navbar-brand" href="#">Brand</a>
+					-->
+				</div>
+				<!-- NAVBAR LINKS -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav ">
+						<li class=""><a href="#top" class="">ABOUT</a></li>
+						<li class=""><a href="#port" class="scrollable">PORTFOLIO</a></li>
+						<li class=""><a href="#cont" class="scrollable">CONTACT</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- TOP ABOUT -->
+		<section  class="top-about text-center">
+			<div class="">
+				<h2><span>Hi!<br>My name's Vlasti</span></h2>
+				<!--		ABOUT ME top		-->
+				<div class="col-md-6 text-center">
+					<p>Hello everybody,
+						I am an IT enthusiast that has multiple trades up his sleave.
+						But now I am a Newbie Web Developer who understands the benefits of programming.
+						I like a good challenge, and the fact that I am in a branch where you learn something new every day.</p>
+				</div>
+				<div id="img" class="text-center">
+					<img src="img/12731188.jpeg" class="img-circle img-responsive" alt="my image goes here">
+				</div>
+			</div>
+		</section>
+		<!--		PORTFOLIO SECTION		-->
+		<section id="port" class="portfolio row text-center">
+			<!-- LINE DIVIDER -->
+			<div class="line">
+				<span> &#60 &#47 &#62
+					<!--Padding is optional-->
+				</span>
+			</div>
+			<!--	<div class=" text-center">
+			<div class="text-center"> -->
+			<h2><span>Portfolio</span></h2>
+			<div class="col-md-6 left">
+				<h3>What I do</h3>
+				<p>
+					I am currently working as a technical support specialist,
+						but I also have experience in administration of software,
+						hardware and network. I have become a Web Developer and
+						fell in love with programming and development because my
+						hope is to combine everything that I know into it,
+						and continue to work and create things that people will apreciate.
+				</p>
+			</div>
+			<div class="col-md-6 right">
+				<h3>What I've done</h3>
+				<p>For now there is only one tribute page and this portfolio.
+					But hopefully in the future, the content will increase and
+					design will be better.</p>
+				</div>
+				<!--	</div>
+			</div>-->
+			<!--		PORTFOLIO PROJECTS    -->
+			<div class="project">
+				<div class="portfolio text-center">
+					<div>
+						<a class="col-md-6" href="https://codepen.io/vlastimir/full/bZjxJO/" target="_blank"><img src="img/tribute.png" alt="first project"></a>
+						<a class="col-md-6" href="#" target="_blank"><img src="img/placeholder.jpg" alt="second project"></a>
+						<a class="col-md-6" href="#" target="_blank"><img src="img/placeholder.jpg" alt="third project"></a>
+						<a class="col-md-6" href="#" target="_blank"><img src="img/placeholder.jpg" alt="fourth project"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--		CONTACT SECTION		-->
+		<section id="cont" class="contact">
+			<!-- LINE DIVIDER -->
+			<div class="line">
+				<span> &#60 &#47 &#62
+					<!--Padding is optional-->
+				</span>
+			</div>
+			<!--	contact form input -->
+			<div class="text-center">
+				<h2><span>Contact</span></h2>
+				<div class="col-md-6">
+					<form class="contact-form text-right" action="index.html" method="post">
+						<input type="text" name="name" value="" placeholder="Name" required>
+						<input type="text" name="email" value="" placeholder="@Email" required>
+						<input type="text" name="name" value="" placeholder="Subject" required>
+						<textarea name="message" rows="4" placeholder="Message" required></textarea>
+						<button type="submit" name="button" class="btn btn-default">Send</button>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<p id="aside" class="">
+						Would you like to know more about me?<br>
+						Ask about my resume? Or to know my hobies, likes and dislikes?
+						<br><br>
+						Send me a message and I will answer you ASAP.
+					</p>
+					<!--	social links	-->
+					<div class="icons">
+						<br><br><br>
+						<h4>
+							Or follow me</h4>
+							<br>
+							<a class="button" href="https://www.facebook.com/vlastimir.radojevic" target="_blank">
+								<i class="fa fa-fw fa-facebook"></i>
+							</a>
+							<a class="button" href="https://www.linkedin.com/in/vlastimir-radojevic" target="_blank">
+								<i class="fa fa-fw fa-linkedin"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!--		F O O T E R        -->
+		<footer class="footer text-center">
+			<div class="bottom-static">
+				Developed by <a href="https://www.freecodecamp.com/stovla" target"_blank">Vlasti<a>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			$('.nav a').click(function() {
+				$(".collapse").collapse('hide');
+			});
+		</script>
+	</body>
+	</html>
